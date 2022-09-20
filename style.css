@@ -1,0 +1,72 @@
+main {
+  background: white;
+  display: grid;
+  width: 100%;
+  justify-items: center;
+}
+div {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 100%;
+  border: 2px solid hsl(229, 6%, 66%);
+  border-radius: 15px;
+}
+p {
+  padding: 10px;
+  color: gray;
+  align-self: center;
+}
+img {
+  width: 50px;
+  height: 50px;
+  margin-top: 20px;
+  margin-left: 60%;
+  margin-bottom: 20px;
+}
+.Supervisor {
+  border-top: 5px solid hsl(180, 62%, 55%);
+}
+.Team {
+  border-top: 5px solid hsl(0, 78%, 62%);
+}
+.Karma {
+  border-top: 5px solid hsl(34, 97%, 64%);
+}
+.Calculator {
+  border-top: 5px solid hsl(212, 86%, 64%);
+}
+
+@media only screen and (min-width: 600px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  section {
+    width: 30%;
+    margin-top: 30px;
+  }
+  div {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    border: 2px solid hsl(0, 0%, 98%);
+    border-radius: 5px;
+  }
+  .Supervisor {
+    margin-top: 30%;
+  }
+  .Team {
+    margin-left: 120%;
+    margin-top: -100%;
+  }
+  .Karma {
+    margin-left: 120%;
+    margin-top: 20px;
+  }
+  .Calculator {
+    margin-left: 230%;
+    margin-top: -130%;
+    margin-bottom: 100%;
+  }
+}
