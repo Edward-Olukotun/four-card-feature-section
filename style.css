@@ -37,7 +37,7 @@ img {
   border-top: 5px solid hsl(212, 86%, 64%);
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 830px) {
   main {
     display: flex;
     flex-direction: column;
@@ -47,7 +47,7 @@ img {
   }
   section {
     width: 30%;
-    margin-top: 20%;
+    margin-top: 5%;
   }
   div {
     margin-left: 5%;
@@ -69,7 +69,7 @@ img {
   }
   .Calculator {
     margin-left: 230%;
-    margin-top: -100%;
+    margin-top: -125%;
     margin-bottom: 100%;
   }
 }
