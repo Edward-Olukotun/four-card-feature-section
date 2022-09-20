@@ -5,8 +5,8 @@ main {
   justify-items: center;
 }
 div {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 5%;
+  margin-bottom: 5%;
   text-align: center;
   width: 100%;
   border: 2px solid hsl(229, 6%, 66%);
@@ -26,15 +26,22 @@ img {
 }
 .Supervisor {
   border-top: 5px solid hsl(180, 62%, 55%);
+  margin-bottom: 30px;
 }
 .Team {
   border-top: 5px solid hsl(0, 78%, 62%);
+  margin-bottom: 30px;
 }
 .Karma {
   border-top: 5px solid hsl(34, 97%, 64%);
+  margin-bottom: 30px;
 }
 .Calculator {
   border-top: 5px solid hsl(212, 86%, 64%);
+  margin-bottom: 30px;
+}
+footer {
+  margin-top: 10%;
 }
 
 @media only screen and (min-width: 830px) {
@@ -73,8 +80,8 @@ img {
     margin-bottom: 100%;
   }
 }
-@media only screen and (max-width: 830px) {
+/* @media only screen and (max-width: 830px) {
   .Calculator {
     margin-top: -100%;
   }
-}
+} */
