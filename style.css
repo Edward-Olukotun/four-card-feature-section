@@ -47,7 +47,7 @@ img {
   }
   section {
     width: 30%;
-    margin-top: 30px;
+    margin-top: 20%;
   }
   div {
     margin-left: 5%;
@@ -69,7 +69,7 @@ img {
   }
   .Calculator {
     margin-left: 230%;
-    margin-top: -130%;
+    margin-top: -100%;
     margin-bottom: 100%;
   }
 }
